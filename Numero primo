@@ -5,8 +5,8 @@ int main() {
        y = false;
    }
    else {
-       for (int i = 1; i <= x ; ++i){
-           if (x % i ! == 0){
+       for (int i = 2; i * i <= x ; ++i){
+           if (x % i == 0){
                y = false;
                break;
            }
